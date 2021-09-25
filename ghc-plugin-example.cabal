@@ -1,6 +1,6 @@
 cabal-version:      2.4
 name:               ghc-plugin-example
-version:            0.1.0.0
+version:            0.2.0.0
 
 -- A short (one-line) description of the package.
 -- synopsis:
@@ -19,7 +19,7 @@ maintainer:         profunctor@pm.me
 -- A copyright notice.
 -- copyright:
 -- category:
-extra-source-files: CHANGELOG.md
+-- extra-source-files:
 
 library
     exposed-modules:  MyPlugin

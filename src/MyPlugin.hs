@@ -10,4 +10,4 @@ import           GhcPlugins
 
 
 plugin :: Plugin
-plugin = defaultPlugin { pluginRecompile = purePlugin }
+plugin = defaultPlugin { pluginRecompile = flagRecompile }
